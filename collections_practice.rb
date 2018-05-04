@@ -34,4 +34,5 @@ def kesha_maker(strings)
       i += 1
     end
   end
+  return new_array
 end
