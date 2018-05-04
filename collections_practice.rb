@@ -30,6 +30,7 @@ def kesha_maker(strings)
   while i < strings.length
     strings.each do |string|
       new_array << string[2]= "$"
+      puts string[2] = "$"
       i += 1
     end
   end
