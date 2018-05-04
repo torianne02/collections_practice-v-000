@@ -4,6 +4,6 @@ end
 
 def sort_array_desc(integers)
  integers.sort
-   b <==> a 
+   b <=> a 
  end
 end
