@@ -50,6 +50,7 @@ def sum_array(integers)
 #  integers.each do |number|
 #    sum += number
 #  end
+#  return sum
   integers.inject do |sum, n|
     sum + n
   end
