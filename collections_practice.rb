@@ -44,3 +44,11 @@ def find_a(array_of_strings)
     string.start_with?("a")
   end
 end
+
+def sum_array(integers)
+  sum = 0
+  integers.each do |number|
+    sum += number
+  end
+  return sum
+end
