@@ -30,5 +30,4 @@ def kesha_maker(strings)
     string[2]= "$"
     new_array << strings
   end
-  return new_array
 end
