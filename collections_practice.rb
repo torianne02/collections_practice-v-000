@@ -25,14 +25,10 @@ def reverse_array(integers)
 end
 
 def kesha_maker(strings)
-  i = 0
   new_array = []
-  while i < strings.length
-    strings.each do |string|
-      new_array << string[2]= "$"
-      puts string[2] = "$"
-      i += 1
-    end
+  strings.each do |string|
+    string[2]= "$"
+    new_array << strings
   end
   return new_array
 end
