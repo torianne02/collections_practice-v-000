@@ -54,5 +54,4 @@ def sum_array(integers)
   integers.inject do |sum, n|
     sum + n
   end
-  return sum
 end
