@@ -34,10 +34,13 @@ end
 
 def find_a(array_of_strings)
   new_array = []
-  array_of_strings.each do |string|
-    if string[0] == "a" || string[0] == "A"
-      new_array << string
-    end
+#  array_of_strings.each do |string|
+#    if string[0] == "a" || string[0] == "A"
+#      new_array << string
+#    end
+#  end
+#  return new_array
+  array_of_strings.select do |string|
+    string.start_with?("a")
   end
-  return new_array
 end
