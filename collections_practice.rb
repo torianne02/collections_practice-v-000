@@ -31,3 +31,13 @@ def kesha_maker(strings)
     new_array << strings
   end
 end
+
+def find_a(array_of_strings)
+  new_array = []
+  array_of_strings.each do |string|
+    if string[0] == "a" || string[0] == "A"
+      new_array << string
+    end
+  end
+  return new_array
+end
