@@ -62,6 +62,6 @@ def add_s(array)
     if index != 1
       string << "s"
     end
-    new array << string
+    new_array << string
   end
 end
