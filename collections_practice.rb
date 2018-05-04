@@ -29,9 +29,9 @@ def kesha_maker(strings)
   new_array = []
   while i < strings.length
     strings.each do |string|
-      new_array << (string[2] = "$")
+      new_string = string[2].replace("$")
+      new_array << new_string
       i += 1
     end
   end
-  return new_array
 end
