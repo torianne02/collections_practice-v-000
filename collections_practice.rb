@@ -4,5 +4,5 @@ end
 
 def sort_array_desc(integers)
  integers.sort
- return intergers
+ return integers
 end
